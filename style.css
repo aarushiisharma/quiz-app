@@ -1,0 +1,71 @@
+body{
+    background-image: url(melanie-magdalena-VdFkSO3uePI-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    height: 350px;
+    width: 400px;
+    background-color: rgba(137, 43, 226, 0.052);
+    backdrop-filter: blur(3px);
+    margin-top: 70px;
+    border-radius: 10px;
+    border: 1px solid rgb(251, 251, 251,0.7);
+    padding: 20px;
+}
+h2{
+    color: aliceblue;
+    margin-top: -5px;
+}
+hr{
+    margin-top: -10px;
+}
+#q{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma;
+    margin-top: 20px;
+}
+#a{
+    height: 230px;
+    margin-top: 10px;
+    background-color:transparent;
+    padding-top: 11px;
+    color: aliceblue;
+}
+button{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(226, 181, 238, 0.082);
+    border: 1px solid rgba(255, 254, 254, 0.303);
+    color: aliceblue;
+    font-size: 19px;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.492);
+}
+#next{
+    width: 70px;
+    margin-left: 160px;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: -8px;
+    background-color: rgba(21, 2, 39, 0.593);
+    padding-left: 13px;
+}
+#next:hover{
+    background-color: rgba(7, 7, 7, 0.7);
+}
